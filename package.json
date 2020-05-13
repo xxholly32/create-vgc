@@ -1,6 +1,6 @@
 {
   "name": "create-vgc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a build tool for vue-general-components",
   "main": "index.js",
   "author": "xiangxiao",
@@ -11,6 +11,11 @@
   "scripts": {
     "start": "node cli"
   },
+  "authors": {
+    "name": "xiangxiao",
+    "email": "xxholly32@163.com"
+  },
+  "repository": "https://github.com/xxholly32/create-vgc",
   "devDependencies": {
     "chalk": "^4.0.0",
     "glob": "^7.1.6",
