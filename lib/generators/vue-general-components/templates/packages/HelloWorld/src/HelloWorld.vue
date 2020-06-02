@@ -1,22 +1,26 @@
 <template>
   <div>
-    <p class="demo-box">This is VGC hello {{ message }} demo</p>
+    <p class="demo-box">
+      This is {{ t("vgc.helloworld.hello") }} {{ message }}
+    </p>
   </div>
 </template>
 
 <script>
+import Locale from "../../../src/utils/mixins/locale.js";
 export default {
   name: "HelloWorld",
-  data() {
-    return {
-      message: "world",
-    };
+  mixins: [Locale],
+  props: {
+    message: {
+      type: String,
+      default: "world",
+    },
   },
 };
 </script>
 
-<style>
-/* css */
+<style lang="scss" scoped>
 .demo-box {
   font-size: 24px;
   font-weight: bold;
