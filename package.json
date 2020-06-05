@@ -1,15 +1,21 @@
 {
   "name": "create-vgc",
-  "version": "0.0.4",
+  "version": "0.0.41",
   "description": "a build tool for vue-general-components",
   "main": "index.js",
   "author": "xiangxiao",
   "license": "MIT",
+  "files":[
+    "lib"
+  ],
   "bin": {
     "create-vgc": "cli.js"
   },
   "scripts": {
-    "start": "node cli"
+    "start": "node cli",
+    "release": "standard-version && npm run cz:changelog",
+    "cz:changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
+    "cz:commit": "git-cz"
   },
   "authors": {
     "name": "xiangxiao",
@@ -17,11 +23,16 @@
   },
   "repository": "https://github.com/xxholly32/create-vgc",
   "dependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
     "chalk": "^4.0.0",
     "clipboardy": "^2.3.0",
     "glob": "^7.1.6",
     "inquirer": "^7.1.0",
     "mkdirp": "^1.0.4",
+    "commitizen": "^4.1.2",
+    "conventional-changelog-cli": "^2.0.34",
+    "standard-version": "^8.0.0",
     "yargs-parser": "^18.1.3",
     "yeoman-generator": "^4.10.1"
   }
