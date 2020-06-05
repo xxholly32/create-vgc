@@ -16,8 +16,9 @@
     "email": "xxholly32@163.com"
   },
   "repository": "https://github.com/xxholly32/create-vgc",
-  "devDependencies": {
+  "dependencies": {
     "chalk": "^4.0.0",
+    "clipboardy": "^2.3.0",
     "glob": "^7.1.6",
     "inquirer": "^7.1.0",
     "mkdirp": "^1.0.4",
