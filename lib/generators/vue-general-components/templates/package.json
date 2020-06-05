@@ -4,7 +4,7 @@
   "description": "<%= description %>",
   "main": "lib/index.js",
   "files": [
-    "lib"
+    "*"
   ],
   "authors": {
     "name": "<%= author %>",
