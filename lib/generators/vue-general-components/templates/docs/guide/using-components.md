@@ -3,14 +3,14 @@
 ## 安装
 
 ```bash
-yarn add vue-general-components
+yarn add <%= name %>
 ```
 
 在 main.js 中写入以下内容：
 
 ```js
-import vgc from "vue-general-components";
-import "vue-general-components/index.css";
+import vgc from "<%= name %>";
+import "<%= name %>/lib/index.css";
 
 Vue.use(vgc);
 ```
