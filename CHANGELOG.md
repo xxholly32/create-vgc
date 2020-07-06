@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.10](https://github.com/xxholly32/create-vgc/compare/v0.0.9...v0.0.10) (2020-07-06)
+
+
+### Features
+
+* 🎸 新增功能 ([5c17c07](https://github.com/xxholly32/create-vgc/commit/5c17c0724af69b50ff7bb3db15d7b844b75f1adf))
+
 ### [0.0.9](https://github.com/xxholly32/create-vgc/compare/v0.0.8...v0.0.9) (2020-06-06)
 
 

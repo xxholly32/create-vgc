@@ -1,6 +1,6 @@
 {
   "name": "create-vgc",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "a build tool for vue-general-components",
   "main": "index.js",
   "author": "xiangxiao",
