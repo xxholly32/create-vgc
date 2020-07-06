@@ -1696,6 +1696,11 @@ gh-got@^5.0.0:
     got "^6.2.0"
     is-plain-obj "^1.1.0"
 
+git-cz@^4.7.0:
+  version "4.7.0"
+  resolved "https://registry.npmjs.org/git-cz/-/git-cz-4.7.0.tgz#fb8011c84da422612b8be61d609664df976a6c9a"
+  integrity sha512-+igNdYIuGe8zncCb6gRxEfZ14Ru0SrI+7rXOueadxBWEn3zkBd3xyTE1RjG6qM3GY+0U7vN8DmT7o9CRcyR++A==
+
 git-raw-commits@2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-2.0.0.tgz#d92addf74440c14bcc5c83ecce3fb7f8a79118b5"
